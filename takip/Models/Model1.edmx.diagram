@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5b37f5e7f6864a99a20dd946eb093943" Name="Diagram1">
+        <EntityTypeShape EntityType="Is_Takip_DBModel.Birimler_Tbl" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Is_Takip_DBModel.Durumlar_Tbl" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Is_Takip_DBModel.Isler_Tbl" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Is_Takip_DBModel.Personel_Tbl" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Is_Takip_DBModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Is_Takip_DBModel.Yetki_Tbl" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="Is_Takip_DBModel.FK_Personel_Tbl_Birimler_Tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="Is_Takip_DBModel.FK_Isler_Tbl_Durumlar_Tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="Is_Takip_DBModel.FK_Isler_Tbl_Personel_Tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="Is_Takip_DBModel.FK_Personel_Tbl_Yetki_Tbl" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
