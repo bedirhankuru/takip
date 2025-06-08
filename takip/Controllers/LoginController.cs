@@ -11,7 +11,7 @@ namespace takip.Controllers
         // GET: Login
 
         IsTakipDBEntities entity = new IsTakipDBEntities(); 
-        public ActionResult Index()
+        public ActionResult Index()     
         {
 
             return View();
